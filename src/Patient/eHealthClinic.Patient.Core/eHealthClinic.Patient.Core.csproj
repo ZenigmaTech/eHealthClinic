@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Command\" />
+    <None Remove="Query\" />
+    <None Remove="Model\" />
+    <None Remove="Command\Request\" />
+    <None Remove="Command\Response\" />
+    <None Remove="Event\" />
+    <None Remove="Query\Request\" />
+    <None Remove="Query\Response\" />
+    <None Remove="Dto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Command\" />
+    <Folder Include="Query\" />
+    <Folder Include="Model\" />
+    <Folder Include="Command\Request\" />
+    <Folder Include="Command\Response\" />
+    <Folder Include="Event\" />
+    <Folder Include="Query\Request\" />
+    <Folder Include="Query\Response\" />
+    <Folder Include="Dto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\eHealthClinic.Core\eHealthClinic.Core.csproj" />
+  </ItemGroup>
+</Project>

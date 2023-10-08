@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Patient.Api", "src\Patient\eHealthClinic.Patient.Api\eHealthClinic.Patient.Api.csproj", "{DF880B66-C569-4AE3-B329-7E29CBA74C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Appointment.Api", "src\Appointment\eHealthClinic.Appointment.Api\eHealthClinic.Appointment.Api.csproj", "{396929D6-97B4-4475-80FC-AD5D2096A0D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Notification", "src\eHealthClinic.Notification\eHealthClinic.Notification.csproj", "{5752F7D0-14E5-41A1-9184-EF6575EF0C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Integration", "src\eHealthClinic.Integration\eHealthClinic.Integration.csproj", "{56DF0BDC-1D1C-4FCD-B22C-466101283367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Core", "src\Infrastructure\eHealthClinic.Core\eHealthClinic.Core.csproj", "{ED82B3CF-5270-4AEC-BB40-6AC9851EDE9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECD4F319-C76E-407F-8F3D-E5C1A09B470F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patient", "Patient", "{AF6EB54E-2912-4737-9DA2-A1594F1FC813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Patient.Core", "src\Patient\eHealthClinic.Patient.Core\eHealthClinic.Patient.Core.csproj", "{03EF9587-7B7F-4C76-8987-C82F527FD638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Patient.Service", "src\Patient\eHealthClinic.Patient.Service\eHealthClinic.Patient.Service.csproj", "{10EB47A7-6948-420F-86A4-7D61B57DF7AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appointment", "Appointment", "{43CF929D-6BAF-4B13-ADB8-A530AC2869B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Appointment.Core", "src\Appointment\eHealthClinic.Appointment.Core\eHealthClinic.Appointment.Core.csproj", "{F954B587-C851-4161-9E6A-D0A7F9C92B6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Appointment.Service", "src\Appointment\eHealthClinic.Appointment.Service\eHealthClinic.Appointment.Service.csproj", "{0A0E925C-740B-43A5-871D-30A4EE5A616E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{BC7C364A-4CCC-412D-9086-F10315AD021F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF880B66-C569-4AE3-B329-7E29CBA74C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF880B66-C569-4AE3-B329-7E29CBA74C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF880B66-C569-4AE3-B329-7E29CBA74C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF880B66-C569-4AE3-B329-7E29CBA74C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396929D6-97B4-4475-80FC-AD5D2096A0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396929D6-97B4-4475-80FC-AD5D2096A0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396929D6-97B4-4475-80FC-AD5D2096A0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396929D6-97B4-4475-80FC-AD5D2096A0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5752F7D0-14E5-41A1-9184-EF6575EF0C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5752F7D0-14E5-41A1-9184-EF6575EF0C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5752F7D0-14E5-41A1-9184-EF6575EF0C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5752F7D0-14E5-41A1-9184-EF6575EF0C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56DF0BDC-1D1C-4FCD-B22C-466101283367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DF0BDC-1D1C-4FCD-B22C-466101283367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DF0BDC-1D1C-4FCD-B22C-466101283367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DF0BDC-1D1C-4FCD-B22C-466101283367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED82B3CF-5270-4AEC-BB40-6AC9851EDE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED82B3CF-5270-4AEC-BB40-6AC9851EDE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED82B3CF-5270-4AEC-BB40-6AC9851EDE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED82B3CF-5270-4AEC-BB40-6AC9851EDE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EF9587-7B7F-4C76-8987-C82F527FD638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EF9587-7B7F-4C76-8987-C82F527FD638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EF9587-7B7F-4C76-8987-C82F527FD638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EF9587-7B7F-4C76-8987-C82F527FD638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10EB47A7-6948-420F-86A4-7D61B57DF7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10EB47A7-6948-420F-86A4-7D61B57DF7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10EB47A7-6948-420F-86A4-7D61B57DF7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10EB47A7-6948-420F-86A4-7D61B57DF7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D89A486F-10C8-482C-B0AC-F9DA4E29A853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D89A486F-10C8-482C-B0AC-F9DA4E29A853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D89A486F-10C8-482C-B0AC-F9DA4E29A853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D89A486F-10C8-482C-B0AC-F9DA4E29A853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F954B587-C851-4161-9E6A-D0A7F9C92B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F954B587-C851-4161-9E6A-D0A7F9C92B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F954B587-C851-4161-9E6A-D0A7F9C92B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F954B587-C851-4161-9E6A-D0A7F9C92B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0E925C-740B-43A5-871D-30A4EE5A616E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0E925C-740B-43A5-871D-30A4EE5A616E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0E925C-740B-43A5-871D-30A4EE5A616E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0E925C-740B-43A5-871D-30A4EE5A616E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F7328B4-6859-4D17-A8E3-CDACE46DA08B}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{396929D6-97B4-4475-80FC-AD5D2096A0D1} = {43CF929D-6BAF-4B13-ADB8-A530AC2869B7}
+		{ED82B3CF-5270-4AEC-BB40-6AC9851EDE9F} = {BC7C364A-4CCC-412D-9086-F10315AD021F}
+		{56DF0BDC-1D1C-4FCD-B22C-466101283367} = {ECD4F319-C76E-407F-8F3D-E5C1A09B470F}
+		{5752F7D0-14E5-41A1-9184-EF6575EF0C41} = {ECD4F319-C76E-407F-8F3D-E5C1A09B470F}
+		{DF880B66-C569-4AE3-B329-7E29CBA74C5E} = {AF6EB54E-2912-4737-9DA2-A1594F1FC813}
+		{AF6EB54E-2912-4737-9DA2-A1594F1FC813} = {ECD4F319-C76E-407F-8F3D-E5C1A09B470F}
+		{03EF9587-7B7F-4C76-8987-C82F527FD638} = {AF6EB54E-2912-4737-9DA2-A1594F1FC813}
+		{10EB47A7-6948-420F-86A4-7D61B57DF7AA} = {AF6EB54E-2912-4737-9DA2-A1594F1FC813}
+		{43CF929D-6BAF-4B13-ADB8-A530AC2869B7} = {ECD4F319-C76E-407F-8F3D-E5C1A09B470F}
+		{D89A486F-10C8-482C-B0AC-F9DA4E29A853} = {AF6EB54E-2912-4737-9DA2-A1594F1FC813}
+		{F954B587-C851-4161-9E6A-D0A7F9C92B6D} = {43CF929D-6BAF-4B13-ADB8-A530AC2869B7}
+		{0A0E925C-740B-43A5-871D-30A4EE5A616E} = {43CF929D-6BAF-4B13-ADB8-A530AC2869B7}
+		{BC7C364A-4CCC-412D-9086-F10315AD021F} = {ECD4F319-C76E-407F-8F3D-E5C1A09B470F}
+	EndGlobalSection
+EndGlobal

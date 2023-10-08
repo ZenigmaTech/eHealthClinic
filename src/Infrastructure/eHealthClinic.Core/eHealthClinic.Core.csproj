@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Event\" />
+    <None Remove="Event\Interface\" />
+    <None Remove="Event\Implementation\" />
+    <None Remove="Event\Implementation\Kafka\" />
+    <None Remove="CommandQuery\" />
+    <None Remove="CommandQuery\Interface\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Event\" />
+    <Folder Include="Event\Interface\" />
+    <Folder Include="Event\Implementation\" />
+    <Folder Include="Event\Implementation\Kafka\" />
+    <Folder Include="CommandQuery\" />
+    <Folder Include="CommandQuery\Interface\" />
+  </ItemGroup>
+</Project>
