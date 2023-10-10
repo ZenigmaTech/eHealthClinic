@@ -31,6 +31,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Monitoring", "src\Infrastructure\eHealthClinic.Monitoring\eHealthClinic.Monitoring.csproj", "{F5F274CA-70C0-4F49-BE73-6E3392DFFBB4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protos", "protos", "{E8EF38D6-1CA6-430C-8A73-A5F015B5AECE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HMS", "HMS", "{27FEFE4C-B07A-45CA-AE61-3FC0D49B74E0}"
+	ProjectSection(SolutionItems) = preProject
+		protos\HMS\timeslots.proto = protos\HMS\timeslots.proto
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,5 +110,6 @@ Global
 		{0A0E925C-740B-43A5-871D-30A4EE5A616E} = {43CF929D-6BAF-4B13-ADB8-A530AC2869B7}
 		{BC7C364A-4CCC-412D-9086-F10315AD021F} = {ECD4F319-C76E-407F-8F3D-E5C1A09B470F}
 		{F5F274CA-70C0-4F49-BE73-6E3392DFFBB4} = {BC7C364A-4CCC-412D-9086-F10315AD021F}
+		{27FEFE4C-B07A-45CA-AE61-3FC0D49B74E0} = {E8EF38D6-1CA6-430C-8A73-A5F015B5AECE}
 	EndGlobalSection
 EndGlobal
