@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Appointment.S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{BC7C364A-4CCC-412D-9086-F10315AD021F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHealthClinic.Monitoring", "src\Infrastructure\eHealthClinic.Monitoring\eHealthClinic.Monitoring.csproj", "{F5F274CA-70C0-4F49-BE73-6E3392DFFBB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{0A0E925C-740B-43A5-871D-30A4EE5A616E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A0E925C-740B-43A5-871D-30A4EE5A616E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A0E925C-740B-43A5-871D-30A4EE5A616E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F274CA-70C0-4F49-BE73-6E3392DFFBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F274CA-70C0-4F49-BE73-6E3392DFFBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F274CA-70C0-4F49-BE73-6E3392DFFBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F274CA-70C0-4F49-BE73-6E3392DFFBB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,5 +102,6 @@ Global
 		{F954B587-C851-4161-9E6A-D0A7F9C92B6D} = {43CF929D-6BAF-4B13-ADB8-A530AC2869B7}
 		{0A0E925C-740B-43A5-871D-30A4EE5A616E} = {43CF929D-6BAF-4B13-ADB8-A530AC2869B7}
 		{BC7C364A-4CCC-412D-9086-F10315AD021F} = {ECD4F319-C76E-407F-8F3D-E5C1A09B470F}
+		{F5F274CA-70C0-4F49-BE73-6E3392DFFBB4} = {BC7C364A-4CCC-412D-9086-F10315AD021F}
 	EndGlobalSection
 EndGlobal
