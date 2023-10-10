@@ -27,7 +27,7 @@ function PatientRegistration() {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:5199/api/patient', patient);
+            const response = await axios.post('http://localhost:40001/api/patient', patient);
             if (response.data)
             {// Assuming the response data has a structure: { name: "...", patientId: "..." }
                 toast.success('Patient registered successfully!', {

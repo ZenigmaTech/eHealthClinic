@@ -11,7 +11,7 @@ function AppointmentsList() {
         if (user && user.id) {
             const fetchAppointments = async () => {
                 try {
-                    const response = await axios.get('http://localhost:5014/api/appointment', {
+                    const response = await axios.get('http://localhost:50001/api/appointment', {
                         params: { patientId: user.id }
                     });
                     setAppointments(response.data.appointments);

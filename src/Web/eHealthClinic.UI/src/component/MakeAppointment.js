@@ -35,7 +35,7 @@ function MakeAppointment() {
         e.preventDefault();
 
         try {
-            await axios.post('http://localhost:5014/api/appointment', {
+            await axios.post('http://localhost:50001/api/appointment', {
                 date: selectedDate,
                 timeslot: timeSlot,
                 reason: reason,

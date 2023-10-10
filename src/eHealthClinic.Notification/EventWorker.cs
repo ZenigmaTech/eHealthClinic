@@ -19,7 +19,7 @@ public class EventWorker : BackgroundService
         while (!stoppingToken.IsCancellationRequested)
         {
             var message = _consumer.Consume();
-            _logger.LogInformation("Message arrived for Patient!: {0}.", message);
+            _logger.LogInformation("Message arrived!: {0}.", message);
         }
     }
 }
