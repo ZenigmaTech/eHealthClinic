@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure\eHealthClinic.Core\eHealthClinic.Core.csproj">
+    <ProjectReference Include="..\..\Infrastructure\eHealthClinic.Core\eHealthClinic.Core.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
     <ProjectReference Include="..\eHealthClinic.Appointment.Service\eHealthClinic.Appointment.Service.csproj">
